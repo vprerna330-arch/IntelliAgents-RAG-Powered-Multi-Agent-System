@@ -8,7 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #model setup 
-llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0)
+# Change Line 11 to this:
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", max_retries=1)
 
 
 #1st agent 
