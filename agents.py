@@ -9,7 +9,7 @@ load_dotenv()
 
 #model setup 
 # Change Line 11 to this:
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", max_retries=1)
+llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", max_retries=1)
 
 
 #1st agent 
